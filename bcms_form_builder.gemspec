@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = [
      "README"
   ]
+  s.add_dependency('browsercms', '>= 3.1.0')
   s.files = [
     "app/controllers/cms/custom_form_elements_controller.rb",
     "app/controllers/cms/custom_forms_controller.rb",
